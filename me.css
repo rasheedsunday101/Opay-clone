@@ -1,0 +1,168 @@
+.top-wrapper{
+    background: #000;
+    padding-bottom: 120px;
+}
+.fst-sec{
+    background-color: rgb(3, 43, 3);
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+position: relative;
+padding-bottom: 50px;
+}
+.top1{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.lip-h3{
+    color: white;
+}
+.top1 img{
+    width: 35px;
+    height: 20px;margin-top: 5px;
+}
+.top1 .tomat{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.top1-he{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.TB{
+    color: white;
+    margin-top: 9px;
+}
+.stars h2{
+    color: white;
+    margin-top: 15px;
+}
+.ict{
+    background-color: rgb(23, 21, 21);
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 230px;
+    text-align: center;
+    color: grey;
+}
+.ict span{
+    color: green;
+}
+.stars-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shield{
+    width: 120px;
+
+}
+.green-top-main{
+    width: 100%;
+    position: absolute;
+    top: 220px;
+}
+.green-top{
+    background: green;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.green-top i{
+    color: red;
+}
+.green-top button{
+    background-color: black;
+    color: green;
+    border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    font-size: 12px;
+}
+.green-top span{
+    margin-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+.third{
+    background-color: rgb(80, 76, 76);
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+.third-2{
+    background-color: rgb(80, 76, 76);
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+.TH{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+}
+.th-icon{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.th-icon p{
+    color: white;
+}
+.th-icon i{
+    color: green;
+}
+.th-icon span{
+    color: gray;
+    font-size: 14px;
+}
+.right i{
+    color: white;
+}
+.right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.right p{
+    background: rgb(242, 64, 64);
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 12px;
+    padding: 5px;
+}
+.cbn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    gap: 10px;
+}
+.cbn-section img{
+    width: 40px;
+}
+.cbn-section p{
+    font-size: 13px;
+}
+.cbn-section span{
+    font-weight: 700;
+}

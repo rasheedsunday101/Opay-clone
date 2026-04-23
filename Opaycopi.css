@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    background: rgba(15, 3, 3, 0.893);
+    padding: 1%;
+    padding-bottom: 80px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.user_profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user_profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user_profile p {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.support {
+    position: relative;
+}
+
+.help {
+    position: absolute;
+    top: -5px;
+    left: 16px;
+    background-color: white;
+    color: red;
+    font-size: 8px;
+    padding: 2px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+
+}
+
+.Green-section {
+    background-color: rgb(97, 248, 185);
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.green-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance i {
+    font-size: 13px;
+}
+
+.balance span {
+    font-size: 13px;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    gap: 4.9px;
+}
+
+.history a {
+    text-decoration: none;
+    color: black;
+}
+
+.money {
+    display: flex;
+    align-items: center;
+}
+.money-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    align-items: center;
+}
+
+.Add {
+    background-color: black;
+    border: none;
+    color: rgb(99, 245, 180);
+    padding: 6.8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.Recent-transfer {
+    background-color: rgba(253, 247, 247, 0.087);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.item-2 {
+    margin-top: 20px;
+}
+
+.transfer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow i {
+    color: rgb(29, 191, 180);
+}
+
+.text-color p {
+    color: white;
+}
+
+.text-color span {
+    color: grey;
+    font-size: 12px;
+}
+
+.money-color p {
+    color: white;
+    font-size: 20px;
+}
+
+.money-color span {
+    color: rgb(115, 242, 115);
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.section-2 {
+    background-color: rgb(58, 51, 51);
+    padding: 12px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* position: sticky;
+    top: 100px; */
+
+
+}
+
+.to-opay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-opay i {
+    display: block;
+    background-color: rgb(21, 18, 18);
+    color: green;
+    width: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.to-opay span {
+    color: rgb(212, 203, 203);
+    margin-top: 8px;
+    display: block;
+    font-size: 14px;
+}
+
+.to-bank i {
+    display: block;
+}
+
+.withdrawal i {
+    display: block;
+}
+
+.Menu-icon {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Menu-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    background-color: rgb(58, 51, 51);
+    margin: 20px;
+    padding: 12px;
+    border-radius: 15px;
+}
+.Menu-icon i {
+    display: block;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.Menu-icon p {
+    color: rgb(162, 244, 244);
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.cha-en {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px;
+    border-style: dashed;
+    border-color: grey;
+    padding-bottom: 15px;
+}
+
+.section-3 {
+    background-color: rgb(21, 70, 21);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.gift-image img {
+    width: 20px;
+}
+
+.special {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.bulleye {
+    background-color: white;
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.target {
+    color: white;
+}
+
+.target span {
+    color: rgb(139, 236, 236);
+    font-size: 12px;
+}
+
+.but button {
+    background-color: green;
+    padding: 8px;
+    border-radius: 40%;
+    border: 0;
+
+
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section-but {
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: none;
+    padding: 20px;
+
+
+}
+
+.down {
+    text-decoration: none;
+}
+
+.down i {
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.down span {
+    color: rgb(70, 74, 77);
+    font-size: 12px;
+}
+
+.active i {
+    color: white;
+    background: green;
+}
+
+.active span {
+    color: green;
+}

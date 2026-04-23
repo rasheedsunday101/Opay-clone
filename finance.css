@@ -1,0 +1,221 @@
+.top-area {
+    background-color: black;
+}
+
+.fi-set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.fi-set h2 {
+    color: white;
+}
+
+.fi-set i {
+    color: white;
+}
+
+.savloan {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 45px;
+    margin-top: 15px;
+}
+
+.savloan p {
+    color: rgb(174, 172, 172);
+}
+
+.savloan h3 {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+}
+
+.savloan h3::after {
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    content: "";
+    background-color: white;
+    bottom: -10px;
+    left: 10px;
+
+}
+
+.deep-green {
+    background-color: rgb(33, 181, 163);
+    margin-top: 30px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 999;
+}
+
+.deepg {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.deepg p {
+    font-size: 12px;
+}
+
+.deepg-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.dg-1 p {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.deepg-1 i {
+    font-size: 10px;
+}
+
+.green {
+    background-color: rgb(27, 82, 27);
+    /* color: white; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.break {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.phase-3 {
+    background: rgb(58, 58, 58);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 15px;
+    padding-bottom: 160px;
+
+}
+
+.safebox {
+    margin-top: 20px;
+}
+
+.safebox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.phase-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.phase-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 62, 10);
+    color: green;
+    padding: 8px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.phase-icon p {
+    color: white;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.phase-icon a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.find {
+    background-color: white;
+    color: green;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 135px;
+
+}
+
+.find h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 680;
+}
+
+.find p {
+    color: rgb(29, 28, 28);
+}
+
+.find img {
+    width: 80px;
+}
+
+.find button {
+    color: white;
+    background-color: rgb(53, 123, 53);
+    height: 35px;
+    width: 85px;
+    border-radius: 120px;
+    border: none;
+}
+
+.but-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shield-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.shield-area i {
+    color: green;
+}
+
+.reward-but {
+    background: rgb(58, 58, 58);
+}

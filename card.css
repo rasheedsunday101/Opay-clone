@@ -1,0 +1,124 @@
+.wrap{
+    background-color: black;
+    padding-bottom: 120px;
+}
+.opay-qa{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding-top: 10px;
+}
+.opay-qa h1{
+    color: white;
+}
+.opay-qa p{
+    color: rgb(2, 148, 114);
+}
+.pc{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    margin: 30px;
+}
+.pc h3{
+    color: white;
+    position: relative;
+   font-size: 12px;
+}
+.pc p{
+    color: grey;
+}
+
+.pc h3::after{
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: -10px;
+    left: 8px;
+    transform: translateX(50%);
+   font-size: 2px;
+}
+
+.move{
+    background: green;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.move i{
+    padding-right: 10px;
+}
+.part-3{
+    background-color: rgb(80, 74, 74);
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+
+    
+    
+}
+.pvc {
+    background-color: rgb(75, 139, 75);
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+  
+}
+.card{
+  
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.things{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.things-icon{
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.green{
+    color: green;
+}
+.things-p{
+    color: rgb(147, 142, 142);
+    margin-top: 5px;
+}
+.things h6{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.get-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.get-btn button{
+    background: green;
+    border: none;
+    width: 260px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+}
